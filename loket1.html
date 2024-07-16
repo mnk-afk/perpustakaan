@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sistem Antrian</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+	<script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+    <div class="container-atas">
+        <img class="img" src="logo.png" alt="none">
+        <div class="wrap-atas">
+            <div class="header">SISTEM ANTRIAN SMK NEGERI 1 GLAGAH</div>
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class="gradient-line"></div>
+    <div class="wrap-button">
+        <button class="btn1" id="btn1-lk1">HOME</button>
+        <button class="btn2" id="btn2-lk1">LOKET 1</button>
+        <button class="btn3" id="btn3-lk1">LOKET 2</button>
+      
+    </div>
+    <div class="container-tengah">
+        
+            <img src="dot.svg" class="dots">
+        
+        <div class="header-tengah1">NOMOR ANTRIAN LOKET 1</div>
+        <div class="circle">
+            <span style="color: white; font-size: 50pt;">A</span><div class="nomor-antrian" id="antrian1">0</div>
+        </div>
+       
+    </div>
+    <div class="gradient-line2"></div>
+    <div class="container-bawah">
+        <div class="wrap-bawah-kiri">
+          
+        </div>
+        <div class="wrap-bawah-kanan">
+            <div class="elka">ELEKTRONIKA <span class="semegah">SEMEGAH 2024</span></div>
+        </div>
+    </div>
+
+    <script>
+        // Get the button element by its id
+        var btn1 = document.getElementById("btn1-lk1");
+        var btn2 = document.getElementById("btn3-lk1");
+        var btn3 = document.getElementById("btn4-lk1");
+
+        // Add a click event listener to the button
+        btn1.addEventListener("click", function() {
+        // Redirect to another page
+        window.location.href = "index.html"; // Replace with your desired URL
+        });
+
+        btn2.addEventListener("click", function() {
+        // Redirect to another page
+        window.location.href = "loket2.html"; // Replace with your desired URL
+        });
+
+        btn3.addEventListener("click", function() {
+        // Redirect to another page
+        window.location.href = "loket3.html"; // Replace with your desired URL
+        });
+    </script>    
+</body>
+</html>

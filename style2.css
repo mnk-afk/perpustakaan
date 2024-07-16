@@ -1,0 +1,942 @@
+@font-face {
+    font-family: fjalla-one;
+    src: url(Fjalla-one.woff);
+}
+
+@font-face {
+    font-family: abel;
+    src: url(Abel-Pro.woff);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #262626;
+}
+
+.container-atas{
+    width: 100%;
+    height: 88px;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    background: #262626 ;
+}
+
+.img{
+    margin-left: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.wrap-atas{
+    margin-left: 1%;
+}
+
+.header{
+    text-align: right;
+    font-size: 21px;
+    font-family: "fjalla-one";
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.line{
+    margin-top: 3px;
+    margin-left: 10px;
+    width: 178px;
+    height: 2px;
+    background: #F7E32F;
+}
+
+.gradient-line {
+    width: 100%;
+    height: 4px;
+    position: relative;
+    background: linear-gradient(to right, #00D1FF, #8BFF07);
+}
+
+.wrap-button{
+    padding-top: 5px;
+    padding-bottom: 7px;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    background-color: white;
+}
+
+.btn1{
+    margin-right: 8px;
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+    font-family: "fjalla-one";
+    border-radius: 7px;
+    border: 0px;
+    background-color: #8EF1FF;
+    color: #262626;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.7);
+}
+
+.btn2{
+    margin-right: 8px;
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+    font-family: "fjalla-one";
+    border-radius: 7px;
+    border: 0px;
+    background-color: #9DFF85;
+    color: #262626;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.btn3{
+    margin-right: 8px;
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+    font-family: "fjalla-one";
+    border-radius: 7px;
+    border: 0px;
+    background-color: #FAEE7E;
+    color: #262626;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.btn4{
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+    font-family: "fjalla-one";
+    border-radius: 7px;
+    border: 0px;
+    background-color: #FF6666;
+    color: #262626;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.container-tengah{
+    width: 100%;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff ;
+}
+
+.header-tengah1{
+    margin-top: 12px;
+    width: 228px;
+    font-size: 35px;
+    text-align: center;
+    font-family: "fjalla-one";
+    color: #262626;
+}
+
+.dots{
+    margin-top: -60px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.circle{
+    margin-top: 55px;
+    margin-bottom: 55px;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+    border-radius: 50%;
+    display: flex;
+}
+
+.nomor-antrian{
+    font-family: "fjalla-one";
+    color: #ffffff;
+    font-size: 100px;
+}
+
+.text-line1{
+    width: 250px;
+    height: 2px;
+    background-color: #262626; /* Line color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.keterangan{
+    margin-top: 10px;
+    width: 250px;
+    text-align: center;
+    font-size: 22px;
+    font-family: "abel";
+    color: #262626;
+}
+
+.text-line2{
+    margin-top: 10px;
+    margin-bottom:-40px ;
+    width: 250px;
+    height: 2px;
+    background-color: #262626; /* Line color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.gradient-line2 {
+    width: 100%;
+    height: 4px;
+    position: relative;
+    background: linear-gradient(to right, #8BFF07,#00D1FF);
+}
+
+.container-bawah{
+    margin-top: 1px;
+    width: 100%;
+    height: 45px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #262626 ;
+}
+
+.wrap-bawah-kiri{
+    position: left;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.credit{
+    width: 74px;
+    font-size: 10px;
+    font-family: "abel";
+    color: #ffffff;
+    line-height: 12px;
+}
+
+.wrap-bawah-kanan{
+    margin-left: 60%;
+    position: right;
+    width: 200px;
+    margin-right: 60px;
+}
+
+.elka{
+    font-size: 14px;
+    text-align: right;
+    font-family: "abel";
+    color: #ffe600;
+}
+
+.semegah{
+    font-size: 14px;
+    font-family: "abel";
+    color: #ffffff;
+}
+
+
+@media (max-height: 700px) {
+    .container-atas{
+        height: 80px;
+    }
+    .wrap-button{
+        height: 30px;
+        padding-top: 8px;
+    }
+    .btn1{
+        margin-right: 14px;
+        width: 70px;
+        height: 27px;
+        font-size: 15px;
+    }
+    
+    .btn2{
+        margin-right: 14px;
+        width: 70px;
+        height: 27px;
+        font-size: 15px;
+    }
+    
+    .btn3{
+        margin-right: 14px;
+        width: 70px;
+        height: 27px;
+        font-size: 15px;
+    }
+    
+    .btn4{
+        width: 70px;
+        height: 27px;
+        font-size: 15px;
+    }
+
+    .container-tengah{
+        height: 470px;
+    }
+
+    .dots{
+        margin-top: -50px;
+        height: 25px;
+    }
+
+    .header-tengah1{
+        margin-top: 5px;
+        font-size: 30px;
+    }
+
+    .circle{
+        height: 160px;
+        width: 160px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .nomor-antrian{
+        font-size: 80px;
+    }
+    
+    .text-line1{
+        width: 227px;
+    }
+    
+    .keterangan{
+        margin-top: 10px;
+        width: 227px;
+        font-size: 20px;
+    }
+    
+    .text-line2{
+       
+    }
+}
+
+@media (min-height: 710px) {
+    .container-atas{
+       
+        height: 88px;
+    }
+    
+    .img{
+        margin-left: 15px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .wrap-atas{
+     
+    }
+    
+    .header{
+      
+        font-size: 24px;
+    }
+    
+    .line{
+        margin-top: 3px;
+        width: 200px ;
+    }
+    
+    .gradient-line {
+        width: 100%;
+        height: 4px;
+    }
+    
+    .wrap-button{
+        padding-top: 5px;
+        width: 100%;
+        height: 45px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        border: none;
+        background-color: white;
+    }
+    
+    .btn1{
+        margin-right: 8px;
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+    }
+    
+    .btn2{
+        margin-right: 8px;
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+    }
+    
+    .btn3{
+        margin-right: 8px;
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+    }
+    
+    .btn4{
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+    }
+    
+    .container-tengah{
+        width: 100%;
+        height: 545px;
+    }
+    
+    .header-tengah1{
+        margin-top: 15px;
+        width: 228px;
+        font-size: 35px;
+    }
+    
+    .dots{
+        margin-top: -60px;
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .circle{
+        margin-top: 45px;
+        margin-bottom: 45px;
+        height: 200px;
+        width: 200px;
+    }
+    
+    .nomor-antrian{
+        font-size: 100px;
+    }
+    
+    .text-line1{
+        width: 250px;
+        height: 2px;
+    }
+    
+    .keterangan{
+        margin-top: 10px;
+        width: 250px;
+    }
+    
+    .text-line2{
+        margin-top: 10px;
+        margin-bottom:-40px ;
+        width: 250px;
+        height: 2px;
+    }
+    
+    .gradient-line2 {
+        width: 100%;
+        height: 4px;
+    }
+    
+    .container-bawah{
+        margin-top: 1px;
+        width: 100%;
+        height: 45px;
+    }
+    
+    .wrap-bawah-kiri{
+        position: left;
+        text-align: left;
+        margin-left: 10px;
+    }
+    
+    .credit{
+        width: 74px;
+        font-size: 10px;
+        font-family: "abel";
+    }
+    
+    .wrap-bawah-kanan{
+        margin-left: 35%;
+        width: 129px;
+        margin-right: 10px;
+        position: right;
+    }
+    
+    .elka{
+        font-size: 14px;
+        text-align: right;
+    }
+    
+    .semegah{
+        font-size: 14px;
+    }
+}
+
+@media (min-height: 750px) {
+    .container-atas{
+        width: 100%;
+        height: 88px;
+    }
+    
+    .img{
+        margin-left: 15px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .wrap-atas{
+        margin-left: 1%;
+    }
+    
+    .header{
+       
+        text-align: right;
+        font-size: 21px;
+    }
+    
+    .line{
+        margin-top: 3px;
+        width: 178px;
+        height: 2px;
+    }
+    
+    .gradient-line {
+        width: 100%;
+        height: 4px;
+    }
+    
+    .wrap-button{
+        padding-top: 5px;
+        width: 100%;
+        height: 45px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        border: none;
+        background-color: white;
+    }
+    
+    .btn1{
+        margin-right: 8px;
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+    }
+    
+    .btn2{
+        margin-right: 8px;
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+    }
+    
+    .btn3{
+        margin-right: 8px;
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+    }
+    
+    .btn4{
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+    }
+    
+    .container-tengah{
+        width: 100%;
+        height: 580px;
+    }
+    
+    .header-tengah1{
+        margin-top: 15px;
+        width: 228px;
+        font-size: 35px;
+    }
+    
+    .dots{
+        margin-top: -60px;
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .circle{
+        margin-top: 45px;
+        margin-bottom: 45px;
+        height: 200px;
+        width: 200px;
+    }
+    
+    .nomor-antrian{
+        font-size: 100px;
+    }
+    
+    .text-line1{
+        width: 250px;
+        height: 2px;
+    }
+    
+    .keterangan{
+        margin-top: 10px;
+        width: 250px;
+    }
+    
+    .text-line2{
+        margin-top: 10px;
+        margin-bottom:-40px ;
+        width: 250px;
+        height: 2px;
+    }
+    
+    .gradient-line2 {
+        width: 100%;
+        height: 4px;
+    }
+    
+    .container-bawah{
+        margin-top: 1px;
+        width: 100%;
+        height: 45px;
+    }
+    
+    .wrap-bawah-kiri{
+        position: left;
+        text-align: left;
+        margin-left: 10px;
+    }
+    
+    .credit{
+        width: 74px;
+        font-size: 10px;
+        font-family: "abel";
+    }
+    
+    .wrap-bawah-kanan{
+        margin-left: 35%;
+        width: 129px;
+        margin-right: 10px;
+        position: right;
+    }
+    
+    .elka{
+        font-size: 14px;
+        text-align: right;
+    }
+    
+    .semegah{
+        font-size: 14px;
+    }
+}
+
+@media (min-height: 799px){
+    .container-atas{
+        width: 100%;
+        height: 88px;
+    }
+    
+    .img{
+        margin-left: 15px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .wrap-atas{
+        margin-left: 1%;
+    }
+    
+    .header{
+       
+        text-align: right;
+        font-size: 21px;
+    }
+    
+    .line{
+        margin-top: 3px;
+        width: 178px;
+        height: 2px;
+    }
+    
+    .gradient-line {
+        width: 100%;
+        height: 4px;
+    }
+    
+    .wrap-button{
+        padding-top: 5px;
+        width: 100%;
+        height: 45px;
+    }
+    
+    .btn1{
+        margin-right: 8px;
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+    }
+    
+    .btn2{
+        margin-right: 8px;
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+    }
+    
+    .btn3{
+        margin-right: 8px;
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+    }
+    
+    .btn4{
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+    }
+    
+    .container-tengah{
+        width: 100%;
+        height: 610px;
+    }
+    
+    .header-tengah1{
+        margin-top: 12px;
+        width: 228px;
+        font-size: 35px;
+    }
+    
+    .dots{
+        margin-top: -60px;
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .circle{
+        margin-top: 55px;
+        margin-bottom: 55px;
+        height: 200px;
+        width: 200px;
+    }
+    
+    .nomor-antrian{
+        font-size: 100px;
+    }
+    
+    .text-line1{
+        width: 250px;
+        height: 2px;
+    }
+    
+    .keterangan{
+        margin-top: 10px;
+        width: 250px;
+    }
+    
+    .text-line2{
+        margin-top: 10px;
+        margin-bottom:-40px ;
+        width: 250px;
+        height: 2px;
+    }
+    
+    .gradient-line2 {
+        width: 100%;
+        height: 4px;
+    }
+    
+    .container-bawah{
+        margin-top: 1px;
+        width: 100%;
+        height: 45px;
+    }
+    
+    .wrap-bawah-kiri{
+        position: left;
+        text-align: left;
+        margin-left: 10px;
+    }
+    
+    .credit{
+        width: 74px;
+        font-size: 10px;
+        font-family: "abel";
+    }
+    
+    .wrap-bawah-kanan{
+        margin-left: 38%;
+        width: 129px;
+        margin-right: 10px;
+        position: right;
+    }
+    
+    .elka{
+        font-size: 14px;
+        text-align: right;
+    }
+    
+    .semegah{
+        font-size: 14px;
+    }
+}
+
+@media (min-height: 890px) {
+    .container-atas{
+        width: 100%;
+        height: 92px;
+    }
+
+    .img{
+        margin-left: 20px;
+        width: 55px;
+        height: 55px;
+    }
+    
+    .wrap-atas{
+        
+    }
+    
+    .header{
+        text-align: right;
+    font-size: 21px;
+    font-family: "fjalla-one";
+    color: #ffffff;
+    padding-left: 10px;
+    }
+    
+    .line{
+        margin-top: 3px;
+        width: 200px ;
+    }
+    
+    .wrap-button{
+        padding-top: 10px;
+        width: 100%;
+        height: 45px;
+    }
+    
+    .btn1{
+        margin-right: 14px;
+        width: 85px;
+        height: 35px;
+        font-size: 20px;
+        border-radius: 7px;
+    }
+    
+    .btn2{
+        margin-right: 14px;
+        width: 85px;
+        height: 35px;
+        font-size: 20px;
+        border-radius: 7px;
+    }
+    
+    .btn3{
+        margin-right: 14px;
+        width: 85px;
+        height: 35px;
+        font-size: 20px;
+        border-radius: 7px;
+    }
+    
+    .btn4{
+        width: 85px;
+        height: 35px;
+        font-size: 20px;
+        border-radius: 7px;
+    }
+    
+    .container-tengah{
+        width: 100%;
+        height: 690px;
+    }
+
+    .dots{
+        height: 35px;
+    }
+    
+    .header-tengah1{
+        margin-top: 10px;
+        width: 290px;
+        font-size: 45px;
+    }
+    
+    .circle{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        height: 230px;
+        width: 230px;
+    }
+    
+    .nomor-antrian{
+        font-size: 120px;
+    }
+    
+    .text-line1{
+        width: 283px;
+        height: 2px;
+    }
+    
+    .keterangan{
+        margin-top: 10px;
+        width: 283px;
+        font-size: 25px;
+    }
+    
+    .text-line2{
+        margin-top: 10px;
+        margin-bottom:-40px ;
+        width: 283px;
+        height: 2px;
+    }
+    
+    .container-bawah{
+        margin-top: 1px;
+        width: 100%;
+        height: 45px;
+        padding: 0;
+    }
+    
+    .wrap-bawah-kiri{
+        position: left;
+        text-align: left;
+        margin-left: 10px;
+    }
+    
+    .credit{
+        width: 74px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+    
+    .wrap-bawah-kanan{
+        margin-left: 38%;
+        width: 300px;
+        margin-right: 10px;
+    }
+    
+    .elka{
+        font-size: 16px;
+    }
+    
+    .semegah{
+        font-size: 16px;
+        font-family: "abel";
+        color: #ffffff;
+    }
+}
+
+
+

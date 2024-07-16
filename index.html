@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sistem Antrian</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+	<script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container-atas">
+        <img class="img" src="logo.png" alt="none">
+        <div class="wrap-atas">
+            <div class="header">SISTEM ANTRIAN SMK NEGERI 1 GLAGAH</div>
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class="gradient-line"></div>
+    <div class="container-tengah">
+        <div class="header-tengah1">Selamat Datang di Perpustakaan SMKN 1 Glagah - Banyuwangi</div><br ><br >
+        <div class="header-tengah1">Silahkan pilih Loket untuk mengambil nomor antrian</div>
+        <img src="dot.svg" class="dots">
+        
+        <div class="wrap-button">
+            <button class="btn1" id="btn1-home">LOKET 1</button>
+            <button class="btn2" id="btn2-home">LOKET 2</button>
+           
+        </div>
+        <div class="text-line1"></div>
+        <div class="keterangan">Dimohon Untuk Tetap Sabar dan Tertib Saat Menunggu Antrian
+            Terima Kasih</div>
+        <div class="text-line2"></div>
+    </div>
+    <div class="gradient-line2"></div>
+    <div class="container-bawah">
+        <div class="wrap-bawah-kiri">
+          
+        </div>
+        <div class="wrap-bawah-kanan">
+            <div class="elka">ELEKTRONIKA <span class="semegah">SEMEGAH 2024</span></div>
+            <div class="elka"><a href="monitoring.html" target="_blank" style="color: white;">Monitoring</a> - <a href="login.html" target="_self"  style="color: white;">Admin</a></div>
+        </div>
+    </div>
+
+    <script>
+        // Get the button element by its id
+        var btn1 = document.getElementById("btn1-home");
+        var btn2 = document.getElementById("btn2-home");
+      
+
+        // Add a click event listener to the button
+        btn1.addEventListener("click", function() {
+        // Redirect to another page
+        window.location.href = "loket1.html"; // Replace with your desired URL
+        });
+
+        btn2.addEventListener("click", function() {
+        // Redirect to another page
+        window.location.href = "loket2.html"; // Replace with your desired URL
+        });
+
+        btn3.addEventListener("click", function() {
+        // Redirect to another page
+        window.location.href = "loket3.html"; // Replace with your desired URL
+        });
+    </script> 
+</body>
+</html>

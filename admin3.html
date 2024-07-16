@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Antrian</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style4.css">
+</head>
+<body>
+    
+    <div class="sidebar" id="sidebar">
+        <div class="header-sidebar">
+            <p class="text-sidebar">ADMIN</p>
+            <div class="line-sidebar"></div>
+        </div>
+        <ul>
+            <li><div class="dot" style="background-color: #8BFF07;"></div><a href="admin1.html">LOKET 1</a></li>
+            <li><div class="dot" style="background-color: #F7E32F;"></div><a href="admin2.html">LOKET 2</a></li>
+            <li><div class="dot" style="background-color: #FF6969;"></div><a href="admin3.html">LOKET 3</a></li>
+        </ul>
+        <div class="container-credit">
+            <div class="line-credit"></div>
+            <div class="elka">ELEKTRONIKA <span class="semegah">SEMEGAH 2024</span></div>
+            <div class="text-credit">Created By : @Abel_Sukmadian</div>
+        </div>
+    </div>
+    
+    <div class="container-atas">
+        <div class="wrap-atas">
+            <div class="header">SISTEM ANTRIAN SMK NEGERI 1 GLAGAH</div>
+            <div class="line"></div>
+        </div>
+        <img class="img" src="logo.png" alt="none">
+    </div>
+    <div class="gradient-line"></div>
+    <div class="container-tengah">
+        <div class="wrap-tengah1">
+            <div class="panggil">PANGGIL NOMOR ANTRIAN</div>
+            <button class="btn-panggil" id="panggil3">PANGGIL</button>
+            <div class="reset">RESET NOMOR ANTRIAN</div>
+            <button class="btn-reset" id="reset3">RESET</button>
+            <div class="box-atur">
+                <div class="atur-up">
+                    <div class="atur">ATUR NOMOR ANTRIAN</div>
+                    <input type="text" id="atur-input3"  autocomplete="off">
+                </div>
+                <button class="btn-atur1" id="btn-atur3">ATUR</button>
+            </div>
+        </div>
+        <div class="wrap-tengah2">
+            <div class="text-nomor">NOMOR ANTRIAN LOKET 3</div>
+            <div class="circle">
+                <div class="nomor-antrian" id="antrian3">0</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
