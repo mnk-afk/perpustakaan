@@ -1,13 +1,13 @@
-// Konfigurasi Firebase
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyA71CFaeejghGJuSCHdd01PzMRUQIHqdQc",
-  authDomain: "sistem-antrian-af26c.firebaseapp.com",
-  databaseURL: "https://sistem-antrian-af26c-default-rtdb.firebaseio.com",
-  projectId: "sistem-antrian-af26c",
-  storageBucket: "sistem-antrian-af26c.appspot.com",
-  messagingSenderId: "824768288823",
-  appId: "1:824768288823:web:cc8cd515c3a5848f8387b2",
-  measurementId: "G-WCMRE7H9YF"
+  apiKey: "AIzaSyDITjXcAN2utgQWLiAMKC0nXxON47_fr4c",
+  authDomain: "new-projectt-46ad2.firebaseapp.com",
+  databaseURL: "https://new-projectt-46ad2-default-rtdb.firebaseio.com",
+  projectId: "new-projectt-46ad2",
+  storageBucket: "new-projectt-46ad2.appspot.com",
+  messagingSenderId: "862896108235",
+  appId: "1:862896108235:web:5b734d87683462035ba14e",
+  measurementId: "G-MYYLBFYJ4Z"
 };
 
 firebase.initializeApp(firebaseConfig);
